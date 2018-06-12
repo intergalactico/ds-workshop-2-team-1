@@ -12,7 +12,7 @@ const st = Section.SectionTypography
 
 const Footer = () => {
   return (
-    <div style={{ height:"100vh", background:"#494949", paddingLeft:"5em", paddingTop: "5em"}}>
+    <div style={{ height:"55vh", background:"#494949", paddingLeft:"5em", paddingTop: "5em	"}}>
      <H3 color="#fff">Stay up to date</H3>
      <ParagraphBold color="#fff">We will use the information you provided to share with you the information on when the tickets launch, and critical updates about the event.</ParagraphBold>
     </div>

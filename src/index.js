@@ -22,6 +22,7 @@ import NavLink from 'NavLink';
 import Paragraph from 'Paragraph';
 import ParagraphBold from 'ParagraphBold';
 import ParagraphSmall from 'ParagraphSmall';
+import TeamMember from 'TeamMember';
 
 export {
   Box,
@@ -43,5 +44,6 @@ export {
   NavLink,
   Paragraph,
   ParagraphBold,
-  ParagraphSmall
+  ParagraphSmall,
+  TeamMember,
 };

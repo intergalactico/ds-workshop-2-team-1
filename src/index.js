@@ -17,5 +17,18 @@ export {
   Section,
   SectionHeader,
   SectionText,
-  Typography
+  Typography,
+  H1,
+  H1Underline,
+  H2,
+  H3,
+  H4,
+  H5,
+  Header,
+  HeaderLogom
+  HeroIntro,
+  NavLink,
+  Paragraph,
+  ParagraphBold,
+  ParagraphSmall
 };

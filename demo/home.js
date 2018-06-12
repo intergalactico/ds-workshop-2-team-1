@@ -32,45 +32,49 @@ const Home = () => {
         </div>
         <div>
             <H2>Keynotes</H2>
-            <TeamMember
-                name="Donald Duck"
-                title="Director of Everything"
-                social={{
-                  twitter: 'donaldducknl',
-                  linkedin: 'https://www.linkedin.com/company/the-walt-disney-company/'
-                }}
-                avatar="../assets/avatar.jpg"
-            />
-            <TeamMember
-                name="Mikko"
-                title="Designer"
-                social={{
-                  twitter: 'donaldducknl',
-                  linkedin: 'https://www.linkedin.com/company/the-walt-disney-company/'
-                }}
-                avatar="../assets/karri_saarinen-1.jpg"
-            />
+            <div style={{display:"flex", justifyContent: "space-around",}}>
+                <TeamMember
+                    name="Donald Duck"
+                    title="Director of Everything"
+                    social={{
+                      twitter: 'donaldducknl',
+                      linkedin: 'https://www.linkedin.com/company/the-walt-disney-company/'
+                    }}
+                    avatar="../assets/avatar.jpg"
+                />
+                <TeamMember
+                    name="Mikko"
+                    title="Designer"
+                    social={{
+                      twitter: 'donaldducknl',
+                      linkedin: 'https://www.linkedin.com/company/the-walt-disney-company/'
+                    }}
+                    avatar="../assets/karri_saarinen-1.jpg"
+                />
+            </div>
         </div>
         <div>
             <H2>Hosts</H2>
-            <TeamMember
-                name="Donald Duck"
-                title="Director of Everything"
-                social={{
-                  twitter: 'donaldducknl',
-                  linkedin: 'https://www.linkedin.com/company/the-walt-disney-company/'
-                }}
-                avatar="../assets/curtis-square-1-1.jpg"
-            />
-            <TeamMember
-                name="Mikko"
-                title="Designer"
-                social={{
-                  twitter: 'donaldducknl',
-                  linkedin: 'https://www.linkedin.com/company/the-walt-disney-company/'
-                }}
-                avatar="../assets/angelos-branding.jpg"
-            />
+            <div style={{display:"flex", justifyContent: "space-around",}}>
+                <TeamMember
+                    name="Donald Duck"
+                    title="Director of Everything"
+                    social={{
+                      twitter: 'donaldducknl',
+                      linkedin: 'https://www.linkedin.com/company/the-walt-disney-company/'
+                    }}
+                    avatar="../assets/curtis-square-1-1.jpg"
+                />
+                <TeamMember
+                    name="Mikko"
+                    title="Designer"
+                    social={{
+                      twitter: 'donaldducknl',
+                      linkedin: 'https://www.linkedin.com/company/the-walt-disney-company/'
+                    }}
+                    avatar="../assets/angelos-branding.jpg"
+                />
+            </div>
         </div>
     </div>
   )

@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components'
 
-export const H3 = styled.div`
+export const H3 = styled.h3`
   color: ${p => p.color};
   font-family: futura-pt-bold, sans-serif, arial;
   font-style: normal;

@@ -5,5 +5,5 @@ import H1Underline from '.'
 
 storiesOf('H1Underline', module)
   .add('index', () => (
-    <H1Underline color="green" />
+    <H1Underline color="green">I am header1 with underline</H1Underline>
   ))

@@ -9,7 +9,7 @@ export const H1Underline = styled.h1`
 	border-bottom: 0.1em solid ${p => p.color};
   }
   color: ${p => p.color};
-  font-family: futura-pt-bold, sans-serif, arial;
+  font-family: PlayfairDisplay, futura-pt-bold, sans-serif, arial;
   font-style: normal;
   font-weight: 700;
   font-size: 2.6em;

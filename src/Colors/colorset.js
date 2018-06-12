@@ -9,5 +9,7 @@ export default {
   lightGrey: '#888',
   disabled: '#E0E0E1',
   normal: '#FFF',
-  black: '#000'
+  black: '#000',
+  tyrianpurple: '#66023c',
+  purple: '#a400d3'
 };

@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components'
 
-export const H1Underline = styled.div`
+export const H1Underline = styled.h1`
   &:after {
   	content: ""; /* This is necessary for the pseudo element to work. */ 
 	display: block; /* This will put the pseudo element on its own line. */

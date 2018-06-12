@@ -1,7 +1,7 @@
 export default {
-  dark: '#353740',
+  dark: '#333',
   grey: '#747d88',
-  darkblue: '#01092F',
+  darkblue: '#070723',
   lightgreen: '#79C8AF',
   curiousBlue: '#1B8CEB',
   caribbeanGreen: '#00D2B2',

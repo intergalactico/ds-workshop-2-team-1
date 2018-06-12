@@ -15,6 +15,7 @@ import { withInfo } from '@storybook/addon-info';
 import TeamMember from '.';
 
 import avatar from '../../assets/avatar.jpg';
+import angelos from '../../assets/angelos-branding.jpg'
 
 storiesOf('TeamMember', module) // eslint-disable-line no-undef
   .add('index',
@@ -22,15 +23,26 @@ storiesOf('TeamMember', module) // eslint-disable-line no-undef
  The TeamMember component renders a card of a team member. It contains
  their avatar, name, title, and links to social networks.
     `)(() => (
-      <TeamMember
-        name="Donald Duck"
-        title="Director of Everything"
-        social={{
-          twitter: 'donaldducknl',
-          linkedin: 'https://www.linkedin.com/company/the-walt-disney-company/'
-        }}
-        avatar={avatar}
-      />
+        <div>
+            <TeamMember
+              name="Donald Duck"
+              title="Director of Everything"
+              social={{
+                twitter: 'donaldducknl',
+                linkedin: 'https://www.linkedin.com/company/the-walt-disney-company/'
+              }}
+              avatar={avatar}
+            />
+            <TeamMember
+              name="Donald Duck"
+              title="Director of Everything"
+              social={{
+                twitter: 'donaldducknl',
+                linkedin: 'https://www.linkedin.com/company/the-walt-disney-company/'
+              }}
+              avatar={angelos}
+            />
+        </div>
   )))
   .add('no social networks',
     withInfo()(() => (

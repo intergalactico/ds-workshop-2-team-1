@@ -12,7 +12,10 @@ import { string, object } from 'prop-types';
  * styled component file of the Typography component.
  */
 import * as s from './styles.js';
-import * as ts from '../Typography/styles.js';
+//import * as ts from '../Typography/styles.js';
+
+import H4 from '../H4'
+import H5 from '../H5'
 
 /*
  * The TeamMember component reuses the Icon component when it needs to
@@ -51,8 +54,10 @@ const TeamMember = (props) => {
   return (
     <s.TeamMember>
       <img src={avatar} width="200" />
-      <ts.Header2>{name}</ts.Header2>
-      <s.Title>{title}</s.Title>
+      {/* <ts.Header2>{name}</ts.Header2> */}
+      <H4>{name}</H4>
+      <H5 color='#747D88'>{title}</H5>
+      {/* <s.Title>{title}</s.Title> */}
       {socialList}
     </s.TeamMember>
   );

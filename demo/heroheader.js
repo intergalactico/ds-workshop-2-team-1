@@ -12,7 +12,7 @@ const st = Section.SectionTypography
 
 const HeroHeader = () => {
   return (
-    <div style={{ height:"100vh", background:"url('../assets/dsconf-wide.jpg') blue"}}>
+    <div style={{ height:"100vh", background:"url('../assets/royal-hero.jpg') blue", backgroundPosition:"center", backgroundRepeat:"no-repeat", backgroundSize:"cover", position:"relative"}}>
       <Header />
       <img src="../assets/dsconf-logo.png" style={{width:"15em", margin:"0 auto 0 auto", display:"block"}}/>
       <H1 style={{textAlign:"center"}} color="#fff">A DESIGN SYSTEMS CONFERENCE</H1>

@@ -13,9 +13,9 @@ const st = Section.SectionTypography
 const Home = () => {
   return (
     <div>
-        <div style={{padding:"50px"}}>
-            <H2>A two-day conference with one day of keynotes & one day of workshops.</H2>
-            <Paragraph>
+        <div style={{padding:"50px", height:"100vh", background:"#66023c"}}>
+            <H2 color="#fff">A two-day conference with one day of keynotes & one day of workshops.</H2>
+            <Paragraph color="#fff">
                 DSCONF aims to bring people together to exchange ideas, solutions, inspiration, and learn how to build digital products better and more efficiently with Design Systems.
                 An event for digital product designers, builders, business owners and organizations who want to learn how to build design systems and why they are needed in the future. We are at a crossroads whereby making the right decisions, you will gain a significant business advantage and ensure the best possible user experience for your digital products and services.
                 Sounds good? Make sure you familiarize yourself with our code of conduct.

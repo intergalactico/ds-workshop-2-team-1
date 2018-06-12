@@ -25,21 +25,21 @@ storiesOf('Button', module) // eslint-disable-line no-undef
       return (
         <div>
           <Box>
-            <Button onClick={function(){ alert('You clicked!'); }}>I am just a button</Button>
+            <Button onClick={function(){ alert('You clicked!'); }} size='1.125rem'>I am just a button</Button>
           </Box>
           <Box>
-            <Button color='#1b8ceb' textColor="#fff" href="http://sc5.io">I am a link button</Button>
-            <Button color='#1b8ceb' textColor="#fff" disabled href="http://sc5.io">Disabled button with link</Button>
+            <Button color='#1b8ceb' textColor="#1b8ceb" href="http://sc5.io">I am a link button</Button>
+            <Button color='#1b8ceb' textColor="#1b8ceb" disabled href="http://sc5.io">Disabled button with link</Button>
           </Box>
           <Box>
-            <Button color='#00d1b2' textColor="#fff" size='1rem'>
+            <Button color='#00d1b2' textColor="#00d1b2" size='1rem'>
               <Icon name='stack-overflow' />
                Button with Icon
             </Button>
           </Box>
           <Box>
-            <Button color='#000' textColor="#fff">Like</Button>
-            <Button color='#00d1b2' textColor="#fff">Like</Button>
+            <Button color='#000' textColor="#000">Like</Button>
+            <Button color='#00d1b2' textColor="#00d1b2">Like</Button>
           </Box>
         </div>
       );
@@ -80,27 +80,43 @@ storiesOf('Button', module) // eslint-disable-line no-undef
     withInfo()(() => {
       return (
         <Box>
-          <Button color='#1b8ceb' textColor="#fff" size='0.60rem'>Tiny</Button>
-          <Button color='#00d1b2' textColor="#fff" size='0.785rem'>Small</Button>
-          <Button color='#e91e63' textColor="#fff" size='1rem'>Normal</Button>
-          <Button color='#888888' textColor="#fff" size='1.5rem'>Large</Button>
-          <Button color='#000' textColor="#fff" size='2.0rem'>XLarge</Button>
+          <Button color='#1b8ceb' textColor="#1b8ceb" size='0.60rem'>Tiny</Button>
+          <Button color='#00d1b2' textColor="#00d1b2" size='0.785rem'>Small</Button>
+          <Button color='#e91e63' textColor="#e91e63" size='1rem'>Normal</Button>
+          <Button color='#888888' textColor="#888888" size='1.5rem'>Large</Button>
+          <Button color='#000' textColor="#000" size='2.0rem'>XLarge</Button>
         </Box>
       );
   }))
+  .add('with different widths',
+    withInfo()(() => {
+        return (
+            <div>
+                <Box>
+                    <Button color='#1b8ceb' textColor="#1b8ceb" width='100%'>100% width</Button>
+                </Box>
+                <Box>
+                    <Button color='#1b8ceb' textColor="#1b8ceb" width='auto'>auto width</Button>
+                </Box>
+                <Box>
+                    <Button color='#1b8ceb' textColor="#1b8ceb" width='200px'> 200px width</Button>
+                </Box>
+            </div>
+        );
+    }))
   .add('with icon',
     withInfo()(() => {
       return (
         <Box>
-          <Button color='#1b8ceb' textColor="#fff" size='1rem'>
+          <Button color='#1b8ceb' textColor="#1b8ceb" size='1rem'>
             <Icon name='star' />
             Some text
           </Button>
-          <Button color='#00d1b2' textColor="#fff" size='0.785rem' isOutlined>
+          <Button color='#00d1b2' textColor="#00d1b2" size='0.785rem' isOutlined>
             <Icon name='star' />
             Some text
           </Button>
-          <Button color='#888888' textColor="#fff" tone={2} size='1rem' isIcon>
+          <Button color='#888888' textColor="#888888" tone={2} size='1rem' isIcon>
             <Icon name='stack-overflow' />
           </Button>
         </Box>

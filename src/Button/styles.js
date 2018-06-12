@@ -5,6 +5,7 @@
 
 import styled, { css } from 'styled-components';
 import { isCircular } from 'styled-utils';
+import set from '../Colors/colorset';
 
 /*
  * In styled-components, you can define functions that output
@@ -26,22 +27,22 @@ export const Button = styled.div`
   font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-weight: 400;
   height: 2.40em;
+  width: ${p => p.width ? p.width : 'auto'};
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 0px 1.0em;
+  padding: 0px 18px;
   cursor: pointer;
   outline: none;
-  border: 1px solid;
-  border-color: transparent;
+  border: 2px solid ${p => p.color};
   border-radius: 3px;
   box-sizing: border-box;
   line-height: 1.5;
   position: relative;
   user-select: none;
   text-decoration: none;
-  background-color: ${p => p.color};
-  color: ${p => p.textColor};
+  background-color: transparent;
+  color: ${p => p.textColor ? p.textColor : set.dark};
   font-size: ${p => p.size ? p.size : '1rem'};
   &:not(:last-child) {
     margin: 0 0.25em 0 0;

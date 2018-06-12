@@ -47,6 +47,10 @@ export const Button = styled.div`
   &:not(:last-child) {
     margin: 0 0.25em 0 0;
   }
+  &:hover {
+      border-color: ${p => p.hoverColor ? p.hoverColor : 'rgba(255,255,255,0.2)'};
+      color: ${p => p.hoverColor ? p.hoverColor : 'rgba(255,255,255,0.2)'};
+  }
 
   & .icon {
     margin: 0 5px 0 0;

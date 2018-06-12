@@ -25,7 +25,7 @@ storiesOf('Button', module) // eslint-disable-line no-undef
       return (
         <div>
           <Box>
-            <Button onClick={function(){ alert('You clicked!'); }} size='1.125rem'>I am just a button</Button>
+            <Button onClick={function(){ alert('You clicked!'); }} size='1.125rem' hoverColor='#1b8ceb'>I am just a button</Button>
           </Box>
           <Box>
             <Button color='#1b8ceb' textColor="#1b8ceb" href="http://sc5.io">I am a link button</Button>

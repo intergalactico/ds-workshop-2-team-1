@@ -7,4 +7,5 @@ export const H2 = styled.h2`
   font-weight: 700;
   font-size: 2.1em;
   line-height: 1em;
+  font-style: italic;
 `

@@ -14,5 +14,4 @@ export const H1Underline = styled.h1`
   font-weight: 700;
   font-size: 2.6em;
   line-height: 1em;
-  text-transform: uppercase;
 `

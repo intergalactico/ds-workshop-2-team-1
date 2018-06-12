@@ -13,6 +13,7 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 import Home from './home'
 import About from './about'
 import HeroHeader from './heroheader'
+import Organiser from './organiser'
 
 /*
  * The router says which path correspond to which page.
@@ -23,6 +24,7 @@ const App = () => (
       <HeroHeader />
       <Route exact path="/" component={Home} />
       <Route path="/about" component={About} />
+      <Organiser />
     </div>
   </Router>
 )

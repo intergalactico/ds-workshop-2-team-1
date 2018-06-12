@@ -13,7 +13,7 @@ const st = Section.SectionTypography
 const Home = () => {
   return (
     <div>
-        <div>
+        <div style={{padding:"50px"}}>
             <H2>A two-day conference with one day of keynotes & one day of workshops.</H2>
             <Paragraph>
                 DSCONF aims to bring people together to exchange ideas, solutions, inspiration, and learn how to build digital products better and more efficiently with Design Systems.
@@ -21,7 +21,7 @@ const Home = () => {
                 Sounds good? Make sure you familiarize yourself with our code of conduct.
             </Paragraph>
         </div>
-        <div>
+        <div style={{padding:"50px"}}>
             <H2>Keynotes, talks and workshops from the fore-front of Design Systems.</H2>
             <Paragraph>
                 DSCONF has 4 long, and 6 shorter speeches during the conference day.
@@ -30,7 +30,7 @@ const Home = () => {
                 There is a total number of 5 workshops, and you can purchase them separately. The workshops are either half-day or full-day.
             </Paragraph>
         </div>
-        <div>
+        <div style={{textAlign:"center"}}>
             <H2>Keynotes</H2>
             <div style={{display:"flex", justifyContent: "space-around",}}>
                 <TeamMember
@@ -53,7 +53,7 @@ const Home = () => {
                 />
             </div>
         </div>
-        <div>
+        <div style={{textAlign:"center"}}>
             <H2>Hosts</H2>
             <div style={{display:"flex", justifyContent: "space-around",}}>
                 <TeamMember

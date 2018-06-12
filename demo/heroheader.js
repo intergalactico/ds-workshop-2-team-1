@@ -17,7 +17,7 @@ const HeroHeader = () => {
       <img src="../assets/dsconf-logo.png" style={{width:"15em", margin:"0 auto 0 auto", display:"block"}}/>
       <H1 style={{textAlign:"center"}} color="#fff">A Design System Conference</H1>
       <HeroIntro style={{textAlign:"center"}} color="#fff">MARCH 14th – 15th, 2018<br />IN HELSINKI, FINLAND</HeroIntro>
-      <Button style={{margin:"0 auto", display:"block", width:"15em", textAlign:"center", marginTop:"1em"}} color="#ff9f00" textColor="#fff">EVENT OVERVIEW</Button>
+      <Button style={{margin:"0 auto", display:"flex", width:"15em", textAlign:"center", marginTop:"1em"}} color="#ff9f00" textColor="#fff">EVENT OVERVIEW</Button>
     </div>
   )
 }

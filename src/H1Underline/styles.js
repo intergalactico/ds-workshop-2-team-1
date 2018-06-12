@@ -12,6 +12,7 @@ export const H1Underline = styled.div`
   font-family: futura-pt-bold, sans-serif, arial;
   font-style: normal;
   font-weight: 700;
-  font-size: 52px;
+  font-size: 2.6em;
+  line-height: 1.7em;
   text-transform: uppercase;
 `

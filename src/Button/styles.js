@@ -34,14 +34,14 @@ export const Button = styled.div`
   padding: 0px 18px;
   cursor: pointer;
   outline: none;
-  border: 2px solid ${p => p.color};
-  border-radius: 3px;
   box-sizing: border-box;
   line-height: 1.5;
   position: relative;
   user-select: none;
   text-decoration: none;
-  background-color: transparent;
+  background-color: ${p => p.color ? p.color : 'transparent'};
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
   color: ${p => p.textColor ? p.textColor : set.dark};
   font-size: ${p => p.size ? p.size : '1rem'};
   &:not(:last-child) {

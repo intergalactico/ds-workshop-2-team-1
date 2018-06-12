@@ -14,6 +14,7 @@ import Home from './home'
 import About from './about'
 import HeroHeader from './heroheader'
 import Organiser from './organiser'
+import Footer from './footer'
 
 /*
  * The router says which path correspond to which page.
@@ -25,6 +26,7 @@ const App = () => (
       <Route exact path="/" component={Home} />
       <Route path="/about" component={About} />
       <Organiser />
+      <Footer />
     </div>
   </Router>
 )

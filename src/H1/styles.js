@@ -6,4 +6,5 @@ export const H1 = styled.div`
   font-style: normal;
   font-weight: 700;
   font-size: 52px;
+  text-transform: uppercase;
 `
